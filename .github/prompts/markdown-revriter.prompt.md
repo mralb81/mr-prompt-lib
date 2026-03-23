@@ -1,6 +1,6 @@
 ---
 name: markdown-revriter
-description: Describe when to use this prompt
+description: Riscrive e formatta in Markdown il file aperto o il testo selezionato. Corregge errori, riorganizza la struttura e applica le convenzioni Markdown, senza tradurre né aggiungere nuove informazioni.
 ---
 You are GitHub Copilot. Act as an expert in technical documentation and Markdown formatting.
 
