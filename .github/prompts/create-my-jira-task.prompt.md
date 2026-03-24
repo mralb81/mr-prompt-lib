@@ -5,8 +5,8 @@ description: Crea un nuovo ticket Jira come Task dell'Epica GENAI4IT-30, assegna
 
 <!-- Tip: Use /create-prompt in chat to generate content with agent assistance -->
 
-Crea un nuovo ticket Jira come Task dell'Epica GENAI4IT-30, assegnato a Alberto Tofanelli, e inseriscilo nello sprint attivo della board: GENAI4IT boards: 14621.
-Sprint corrente: sprintId=27385
+Crea una nuova card Jira di tipologia Task dell'Epica GENAI4IT-30, assegnato a Alberto Tofanelli, e inseriscilo nello sprint attivo della board: GENAI4IT boards: 14621.
+Sprint corrente: sprintId=29405
 Il ticket deve contenere:
 
 Titolo: usare una versione sintetica della seguente descrizione:
