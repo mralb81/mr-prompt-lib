@@ -1,0 +1,1 @@
+Il GenAI Ticket Solver affianca gli operatori L2 nell'analisi e risoluzione dei ticket: cerca casi simili, interroga la knowledge base Advisor con domande sintetiche e genera una proposta di risoluzione strutturata. Il feedback degli operatori migliora continuamente la qualità delle risposte e della documentazione.
