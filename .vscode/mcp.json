@@ -1,11 +1,35 @@
 {
 	"servers": {
-		"com.atlassian/atlassian-mcp-server": {
-			"type": "http",
-			"url": "https://mcp.atlassian.com/v1/mcp",
-			"gallery": "https://api.mcp.github.com",
-			"version": "1.1.1"
+		"mcp-atlassian": {
+			"type": "stdio",
+			"command": "uvx",
+			"args": ["mcp-atlassian"],
+			"env": {
+				"JIRA_URL": "${input:atlassian-url}",
+				"JIRA_USERNAME": "${input:atlassian-username}",
+				"JIRA_API_TOKEN": "${input:atlassian-api-token}",
+				"CONFLUENCE_URL": "${input:atlassian-url}",
+				"CONFLUENCE_USERNAME": "${input:atlassian-username}",
+				"CONFLUENCE_API_TOKEN": "${input:atlassian-api-token}"
+			}
 		}
 	},
-	"inputs": []
+	"inputs": [
+		{
+			"id": "atlassian-url",
+			"type": "promptString",
+			"description": "Atlassian Cloud URL (es. https://yoursite.atlassian.net)"
+		},
+		{
+			"id": "atlassian-username",
+			"type": "promptString",
+			"description": "Email account Atlassian"
+		},
+		{
+			"id": "atlassian-api-token",
+			"type": "promptString",
+			"description": "Atlassian API Token",
+			"password": true
+		}
+	]
 }
